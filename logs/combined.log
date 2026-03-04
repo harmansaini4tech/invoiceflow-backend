@@ -1,0 +1,46 @@
+2026-03-03T15:01:31.245Z [[32minfo[39m]: ✅ MongoDB Connected: ac-aohxljt-shard-00-02.y8dlg07.mongodb.net
+2026-03-03T15:01:31.253Z [[32minfo[39m]: 🚀 Server running on port 5000
+2026-03-03T15:02:28.406Z [[31merror[39m]: Company validation failed: owner: Path `owner` is required.
+2026-03-03T15:03:50.827Z [[32minfo[39m]: ✅ MongoDB Connected: ac-aohxljt-shard-00-01.y8dlg07.mongodb.net
+2026-03-03T15:03:50.832Z [[32minfo[39m]: 🚀 Server running on port 5000
+2026-03-03T15:04:55.260Z [[32minfo[39m]: ✅ MongoDB Connected: ac-aohxljt-shard-00-02.y8dlg07.mongodb.net
+2026-03-03T15:04:55.266Z [[32minfo[39m]: 🚀 Server running on port 5000
+2026-03-03T15:05:32.847Z [[31merror[39m]: Invalid API Key provided: sk_test_xxx
+2026-03-03T15:05:45.624Z [[31merror[39m]: Invalid credentials
+2026-03-03T15:06:03.717Z [[31merror[39m]: Invalid credentials
+2026-03-03T15:07:10.863Z [[32minfo[39m]: ✅ MongoDB Connected: ac-aohxljt-shard-00-02.y8dlg07.mongodb.net
+2026-03-03T15:07:10.868Z [[32minfo[39m]: 🚀 Server running on port 5000
+2026-03-03T15:08:16.125Z [[31merror[39m]: Invalid email or password
+2026-03-03T15:08:26.976Z [[31merror[39m]: Invalid email or password
+2026-03-03T15:09:54.635Z [[31merror[39m]: Invalid email or password
+2026-03-03T15:14:36.711Z [[31merror[39m]: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3599bb8d224sm1774620a91.2 - gsmtp
+2026-03-03T15:22:00.501Z [[31merror[39m]: This feature requires a pro or business plan
+2026-03-03T15:22:00.925Z [[31merror[39m]: This feature requires a pro or business plan
+2026-03-03T15:22:31.666Z [[31merror[39m]: Invalid API Key provided: sk_test_xxx
+2026-03-03T15:23:23.116Z [[31merror[39m]: This feature requires a pro or business plan
+2026-03-03T15:23:23.256Z [[31merror[39m]: This feature requires a pro or business plan
+2026-03-03T15:27:34.937Z [[32minfo[39m]: ✅ MongoDB Connected: ac-aohxljt-shard-00-02.y8dlg07.mongodb.net
+2026-03-03T15:27:34.948Z [[32minfo[39m]: 🚀 Server running on port 5000
+2026-03-03T15:30:20.717Z [[32minfo[39m]: ✅ MongoDB Connected: ac-aohxljt-shard-00-02.y8dlg07.mongodb.net
+2026-03-03T15:30:20.725Z [[32minfo[39m]: 🚀 Server running on port 5000
+2026-03-03T15:42:25.989Z [[32minfo[39m]: ✅ MongoDB Connected: ac-aohxljt-shard-00-02.y8dlg07.mongodb.net
+2026-03-03T15:42:25.998Z [[32minfo[39m]: 🚀 Server running on port 5000
+2026-03-03T15:45:18.873Z [[32minfo[39m]: ✅ MongoDB Connected: ac-aohxljt-shard-00-02.y8dlg07.mongodb.net
+2026-03-03T15:45:18.877Z [[32minfo[39m]: 🚀 Server running on port 5000
+2026-03-03T15:46:45.714Z [[32minfo[39m]: ✅ MongoDB Connected: ac-aohxljt-shard-00-02.y8dlg07.mongodb.net
+2026-03-03T15:46:45.728Z [[32minfo[39m]: 🚀 Server running on port 5000
+2026-03-03T15:55:03.147Z [[32minfo[39m]: ✅ MongoDB Connected: ac-aohxljt-shard-00-01.y8dlg07.mongodb.net
+2026-03-03T15:55:03.157Z [[32minfo[39m]: 🚀 Server running on port 5000
+2026-03-03T15:55:26.510Z [[32minfo[39m]: 📧 Email sent to william@gmail.com — Invoice INV-0002 from vCan
+2026-03-03T15:58:10.783Z [[32minfo[39m]: 📧 Email sent to saniyasaini88180tk@gmail.com — Invoice INV-0003 from vCan
+2026-03-03T16:24:32.971Z [[32minfo[39m]: ✅ MongoDB Connected: ac-aohxljt-shard-00-02.y8dlg07.mongodb.net
+2026-03-03T16:24:32.976Z [[32minfo[39m]: 🚀 Server running on port 5000
+2026-03-03T16:29:57.849Z [[32minfo[39m]: ✅ MongoDB Connected: ac-aohxljt-shard-00-00.y8dlg07.mongodb.net
+2026-03-03T16:29:57.854Z [[32minfo[39m]: 🚀 Server running on port 5000
+2026-03-03T16:32:28.703Z [[32minfo[39m]: 📧 Email sent to harmansaini10000@gmail.com — Invoice INV-0005 from vCan
+2026-03-03T16:33:39.334Z [[31merror[39m]: invalid signature
+2026-03-03T16:33:39.737Z [[31merror[39m]: invalid signature
+2026-03-04T13:56:03.873Z [[31merror[39m]: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-03-04T14:00:34.769Z [[32minfo[39m]: ✅ MongoDB Connected: ac-aohxljt-shard-00-00.y8dlg07.mongodb.net
+2026-03-04T14:00:34.776Z [[32minfo[39m]: 🚀 Server running on port 5000
