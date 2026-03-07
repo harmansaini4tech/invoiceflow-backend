@@ -15,3 +15,237 @@
 2026-03-03T16:33:39.334Z [[31merror[39m]: invalid signature
 2026-03-03T16:33:39.737Z [[31merror[39m]: invalid signature
 2026-03-04T13:56:03.873Z [[31merror[39m]: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-03-05T03:25:46.046Z [[31merror[39m]: Invalid email or password
+2026-03-05T15:02:39.779Z [[31merror[39m]: The gmail.com domain is not verified. Please, add and verify your domain on https://resend.com/domains
+2026-03-05T15:12:52.924Z [[31merror[39m]: Unauthorized
+2026-03-05T15:16:41.685Z [[31merror[39m]: Forbidden
+2026-03-05T15:16:56.629Z [[31merror[39m]: Forbidden
+2026-03-06T08:09:27.778Z [[31merror[39m]: Invalid email or password
+2026-03-06T08:09:33.975Z [[31merror[39m]: Invalid email or password
+2026-03-07T13:06:49.814Z [[31merror[39m]: Invoice ID required
+2026-03-07T13:06:49.824Z [[31merror[39m]: Invoice ID required
+2026-03-07T13:07:30.585Z [[31merror[39m]: Invoice ID required
+2026-03-07T13:07:30.593Z [[31merror[39m]: Invoice ID required
+2026-03-07T13:08:59.901Z [[31merror[39m]: Cast to ObjectId failed for value "{
+  invoiceNumber: 'VCAN-0015',
+  status: 'draft',
+  issueDate: '2026-03-07T00:00:00.000Z',
+  dueDate: '2026-03-07T00:00:00.000Z',
+  currency: 'USD',
+  lineItems: [
+    {
+      description: 'clothes ',
+      quantity: 1,
+      rate: 4000,
+      discount: 0,
+      taxRate: 0,
+      amount: 4000,
+      _id: '69ac22afe72c92f71a247d9f'
+    },
+    {
+      description: 'fruit',
+      quantity: 1,
+      rate: 430,
+      discount: 0,
+      taxRate: 0,
+      amount: 430,
+      _id: '69ac22afe72c92f71a247da0'
+    }
+  ],
+  subtotal: 4430,
+  taxRate: 12,
+  taxAmount: 478.44,
+  discountAmount: 443,
+  shippingCharge: 10,
+  total: 4465.441,
+  balanceDue: 4465.441,
+  notes: 'thanks',
+  terms: 'online',
+  customer: {
+    _id: '69a7049b36b5611fe2258e28',
+    name: 'saniya saini',
+    email: 'saniyasaini88180tk@gmail.com',
+    phone: '8818012383'
+  },
+  company: {
+    _id: '69a6f9fc9686a7d4b92db56a',
+    name: 'vCan manage',
+    email: 'johndoe92@example.com',
+    phone: '8958654756'
+  },
+  publicToken: '9420ca29-6165-43dc-8369-6764a2913835'
+}" (type Object) at path "_id" for model "Invoice"
+2026-03-07T13:08:59.904Z [[31merror[39m]: Cast to ObjectId failed for value "{
+  invoiceNumber: 'VCAN-0015',
+  status: 'draft',
+  issueDate: '2026-03-07T00:00:00.000Z',
+  dueDate: '2026-03-07T00:00:00.000Z',
+  currency: 'USD',
+  lineItems: [
+    {
+      description: 'clothes ',
+      quantity: 1,
+      rate: 4000,
+      discount: 0,
+      taxRate: 0,
+      amount: 4000,
+      _id: '69ac22afe72c92f71a247d9f'
+    },
+    {
+      description: 'fruit',
+      quantity: 1,
+      rate: 430,
+      discount: 0,
+      taxRate: 0,
+      amount: 430,
+      _id: '69ac22afe72c92f71a247da0'
+    }
+  ],
+  subtotal: 4430,
+  taxRate: 12,
+  taxAmount: 478.44,
+  discountAmount: 443,
+  shippingCharge: 10,
+  total: 4465.441,
+  balanceDue: 4465.441,
+  notes: 'thanks',
+  terms: 'online',
+  customer: {
+    _id: '69a7049b36b5611fe2258e28',
+    name: 'saniya saini',
+    email: 'saniyasaini88180tk@gmail.com',
+    phone: '8818012383'
+  },
+  company: {
+    _id: '69a6f9fc9686a7d4b92db56a',
+    name: 'vCan manage',
+    email: 'johndoe92@example.com',
+    phone: '8958654756'
+  },
+  publicToken: '9420ca29-6165-43dc-8369-6764a2913835'
+}" (type Object) at path "_id" for model "Invoice"
+2026-03-07T13:10:48.901Z [[31merror[39m]: Cast to ObjectId failed for value "{
+  invoiceNumber: 'VCAN-0015',
+  status: 'draft',
+  issueDate: '2026-03-07T00:00:00.000Z',
+  dueDate: '2026-03-07T00:00:00.000Z',
+  currency: 'USD',
+  lineItems: [
+    {
+      description: 'clothes ',
+      quantity: 1,
+      rate: 4000,
+      discount: 0,
+      taxRate: 0,
+      amount: 4000,
+      _id: '69ac22afe72c92f71a247d9f'
+    },
+    {
+      description: 'fruit',
+      quantity: 1,
+      rate: 430,
+      discount: 0,
+      taxRate: 0,
+      amount: 430,
+      _id: '69ac22afe72c92f71a247da0'
+    }
+  ],
+  subtotal: 4430,
+  taxRate: 12,
+  taxAmount: 478.44,
+  discountAmount: 443,
+  shippingCharge: 10,
+  total: 4465.441,
+  balanceDue: 4465.441,
+  notes: 'thanks',
+  terms: 'online',
+  customer: {
+    _id: '69a7049b36b5611fe2258e28',
+    name: 'saniya saini',
+    email: 'saniyasaini88180tk@gmail.com',
+    phone: '8818012383'
+  },
+  company: {
+    _id: '69a6f9fc9686a7d4b92db56a',
+    name: 'vCan manage',
+    email: 'johndoe92@example.com',
+    phone: '8958654756'
+  },
+  publicToken: '9420ca29-6165-43dc-8369-6764a2913835'
+}" (type Object) at path "_id" for model "Invoice"
+2026-03-07T13:10:49.037Z [[31merror[39m]: Cast to ObjectId failed for value "{
+  invoiceNumber: 'VCAN-0015',
+  status: 'draft',
+  issueDate: '2026-03-07T00:00:00.000Z',
+  dueDate: '2026-03-07T00:00:00.000Z',
+  currency: 'USD',
+  lineItems: [
+    {
+      description: 'clothes ',
+      quantity: 1,
+      rate: 4000,
+      discount: 0,
+      taxRate: 0,
+      amount: 4000,
+      _id: '69ac22afe72c92f71a247d9f'
+    },
+    {
+      description: 'fruit',
+      quantity: 1,
+      rate: 430,
+      discount: 0,
+      taxRate: 0,
+      amount: 430,
+      _id: '69ac22afe72c92f71a247da0'
+    }
+  ],
+  subtotal: 4430,
+  taxRate: 12,
+  taxAmount: 478.44,
+  discountAmount: 443,
+  shippingCharge: 10,
+  total: 4465.441,
+  balanceDue: 4465.441,
+  notes: 'thanks',
+  terms: 'online',
+  customer: {
+    _id: '69a7049b36b5611fe2258e28',
+    name: 'saniya saini',
+    email: 'saniyasaini88180tk@gmail.com',
+    phone: '8818012383'
+  },
+  company: {
+    _id: '69a6f9fc9686a7d4b92db56a',
+    name: 'vCan manage',
+    email: 'johndoe92@example.com',
+    phone: '8958654756'
+  },
+  publicToken: '9420ca29-6165-43dc-8369-6764a2913835'
+}" (type Object) at path "_id" for model "Invoice"
+2026-03-07T13:31:39.556Z [[31merror[39m]: getaddrinfo ENOTFOUND ac-aohxljt-shard-00-02.y8dlg07.mongodb.net
+2026-03-07T13:31:39.569Z [[31merror[39m]: getaddrinfo ENOTFOUND ac-aohxljt-shard-00-02.y8dlg07.mongodb.net
+2026-03-07T14:30:44.115Z [[31merror[39m]: Route /api/v1/notifications/stream?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YTZmOWZiOTY4NmE3ZDRiOTJkYjU2OCIsImlhdCI6MTc3Mjg5MTQ5NywiZXhwIjoxNzczNDk2Mjk3fQ.Rff2C_h8sIbqNJ0paZJK-_CIveKK2__gA3GhgUuBSvY not found
+2026-03-07T14:31:44.895Z [[31merror[39m]: Not authorized, no token
+2026-03-07T14:33:22.371Z [[31merror[39m]: Not authorized, no token
+2026-03-07T14:33:22.378Z [[31merror[39m]: Not authorized, no token
+2026-03-07T14:33:22.386Z [[31merror[39m]: Not authorized, no token
+2026-03-07T14:33:22.391Z [[31merror[39m]: Not authorized, no token
+2026-03-07T14:33:22.396Z [[31merror[39m]: Not authorized, no token
+2026-03-07T14:33:22.435Z [[31merror[39m]: Not authorized, no token
+2026-03-07T14:33:22.443Z [[31merror[39m]: Not authorized, no token
+2026-03-07T14:33:22.450Z [[31merror[39m]: Not authorized, no token
+2026-03-07T14:33:22.461Z [[31merror[39m]: Not authorized, no token
+2026-03-07T14:33:47.756Z [[31merror[39m]: Not authorized, no token
+2026-03-07T14:33:47.765Z [[31merror[39m]: Not authorized, no token
+2026-03-07T14:33:47.771Z [[31merror[39m]: Not authorized, no token
+2026-03-07T14:33:47.777Z [[31merror[39m]: Not authorized, no token
+2026-03-07T14:33:47.785Z [[31merror[39m]: Not authorized, no token
+2026-03-07T14:33:47.806Z [[31merror[39m]: Not authorized, no token
+2026-03-07T14:33:47.813Z [[31merror[39m]: Not authorized, no token
+2026-03-07T14:33:47.819Z [[31merror[39m]: Not authorized, no token
+2026-03-07T14:33:47.835Z [[31merror[39m]: Not authorized, no token
+2026-03-07T15:08:58.079Z [[31merror[39m]: No matching document found for id "69aa96d808cb481c1912c41f" version 0 modifiedPaths "stripePaymentIntentId"
+2026-03-07T15:09:23.667Z [[31merror[39m]: No balance due
+2026-03-07T15:09:23.695Z [[31merror[39m]: No balance due
+2026-03-07T15:09:39.688Z [[31merror[39m]: No balance due
+2026-03-07T15:09:39.694Z [[31merror[39m]: No balance due

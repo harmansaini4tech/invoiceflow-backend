@@ -25,9 +25,7 @@ const companySchema = new mongoose.Schema(
         default: "modern",
       },
       showLogo: { type: Boolean, default: true },
-      showPaymentTerms: { type: Boolean, default: true },
       showBankDetails: { type: Boolean, default: false },
-      watermark: String,
     },
     bankDetails: {
       bankName: String,
