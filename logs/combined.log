@@ -420,3 +420,8 @@
 2026-03-07T15:09:39.694Z [[31merror[39m]: No balance due
 2026-03-07T15:13:27.904Z [[32minfo[39m]: ✅ MongoDB Connected: ac-aohxljt-shard-00-02.y8dlg07.mongodb.net
 2026-03-07T15:13:27.920Z [[32minfo[39m]: 🚀 Server running on port 5000
+2026-03-11T10:28:50.821Z [[31merror[39m]: querySrv ECONNREFUSED _mongodb._tcp.invoiceflow.y8dlg07.mongodb.net
+2026-03-11T10:29:54.379Z [[32minfo[39m]: ✅ MongoDB Connected: ac-aohxljt-shard-00-01.y8dlg07.mongodb.net
+2026-03-11T10:29:54.386Z [[32minfo[39m]: 🚀 Server running on port 5000
+2026-03-11T10:46:20.867Z [[32minfo[39m]: ✅ MongoDB Connected: ac-aohxljt-shard-00-02.y8dlg07.mongodb.net
+2026-03-11T10:46:20.882Z [[32minfo[39m]: 🚀 Server running on port 5000

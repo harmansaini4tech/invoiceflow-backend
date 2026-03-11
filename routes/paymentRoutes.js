@@ -168,4 +168,55 @@ router.post('/webhook',
   }
 );
 
+// ── POST /api/v1/payments/confirm ────────────────────────────────────────────
+// Called from frontend after Stripe confirms payment — no auth needed
+router.post('/confirm', async (req, res) => {
+  const { invoiceId, paymentIntentId } = req.body;
+  if (!invoiceId) throw new ApiError('Invoice ID required', 400);
+
+  const invoice = await Invoice.findById(invoiceId);
+  if (!invoice) throw new ApiError('Invoice not found', 404);
+  if (invoice.status === 'paid') return success(res, invoice, 'Already paid');
+
+  // Verify with Stripe
+  const { getPaymentIntent } = require('../services/stripeService');
+  const intent = await getPaymentIntent(paymentIntentId);
+  if (intent.status !== 'succeeded')
+    throw new ApiError('Payment not confirmed by Stripe', 400);
+
+  const paidAmount = intent.amount_received / 100;
+
+  // Add payment record
+  invoice.payments.push({
+    amount:    paidAmount,
+    method:    'stripe',
+    reference: intent.id,
+    note:      'Paid via Stripe',
+    paidAt:    new Date(),
+  });
+
+  invoice.amountPaid = paidAmount;
+  invoice.balanceDue = 0;
+  invoice.status     = 'paid';
+  invoice.paidAt     = new Date();
+  await invoice.save();
+
+  // Update customer stats
+  await Customer.findByIdAndUpdate(invoice.customer, {
+    $inc: { totalPaid: paidAmount, totalOutstanding: -paidAmount },
+  });
+
+  // Notify
+  await createNotification({
+    company: invoice.company,
+    type:    'payment_received',
+    title:   'Payment Received',
+    message: `Invoice ${invoice.invoiceNumber} paid via Stripe — ${invoice.currency} ${paidAmount.toFixed(2)}`,
+    link:    `/invoices/${invoice._id}`,
+    meta:    { invoiceNumber: invoice.invoiceNumber, amount: paidAmount },
+  });
+
+  success(res, invoice, 'Payment confirmed');
+});
+
 module.exports = router;
